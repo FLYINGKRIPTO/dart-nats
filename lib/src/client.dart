@@ -88,6 +88,7 @@ class Client {
 
   ///status of the client
   Status get status => _status;
+  Map<int, Subscription> get subsClient => _subs;
 
   /// accept bad certificate NOT recomend to use in production
   bool acceptBadCert = false;
